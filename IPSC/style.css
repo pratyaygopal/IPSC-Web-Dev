@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+
+}
+
+.navlist{
+    width: 33%;
+    background-color: rgb(18, 193, 216);
+    display: flex;
+    
+}
+
+.navlist li{
+    list-style: none;
+    padding: 20px 20px;
+}
+
+.navlist li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.navlist li a:hover{
+    text-decoration: none;
+    color: tomato;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 33%;
+    border: 5px;
+    border-radius: 10px;
+}
